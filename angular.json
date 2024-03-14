@@ -22,12 +22,35 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/vendor",
+              "src/vendor/aos",
+              "src/vendor/bootstrap",
+              "src/vendor/bootstrap/css",
+              "src/vendor/bootstrap-icons",
+              "src/vendor/swiper",
+              "src/vendor/glightbox/css"
             ],
             "styles": [
+              "src/assets/vendor/aos/aos.css",
+              "src/assets/vendor/bootstrap/css/bootstrap.min.css",
+              "src/assets/vendor/bootstrap-icons/bootstrap-icons.css",
+              "src/assets/vendor/boxicons/css/boxicons.min.css",
+              "src/assets/vendor/glightbox/css/glightbox.min.css",
+              "src/assets/vendor/swiper/swiper-bundle.min.css",
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "src/assets/vendor/purecounter/purecounter_vanilla.js",
+              "src/assets/vendor/aos/aos.js",
+              "src/assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+              "src/assets/vendor/glightbox/js/glightbox.min.js",
+              "src/assets/vendor/isotope-layout/isotope.pkgd.min.js",
+              "src/assets/vendor/swiper/swiper-bundle.min.js",
+              "src/assets/vendor/typed.js/typed.umd.js",
+              "src/assets/vendor/waypoints/noframework.waypoints.js",
+              "src/assets/js/main.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -86,15 +109,41 @@
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/vendor",
+              "src/vendor/aos",
+              "src/vendor/bootstrap",
+              "src/vendor/bootstrap/css",
+              "src/vendor/bootstrap-icons",
+              "src/vendor/swiper",
+              "src/vendor/glightbox/css"
             ],
             "styles": [
+              "assets/vendor/aos/aos.css",
+              "assets/vendor/bootstrap/css/bootstrap.min.css",
+              "assets/vendor/bootstrap-icons/bootstrap-icons.css",
+              "assets/vendor/boxicons/css/boxicons.min.css",
+              "assets/vendor/glightbox/css/glightbox.min.css",
+              "assets/vendor/swiper/swiper-bundle.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "assets/vendor/purecounter/purecounter_vanilla.js",
+              "assets/vendor/aos/aos.js",
+              "assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+              "assets/vendor/glightbox/js/glightbox.min.js",
+              "assets/vendor/isotope-layout/isotope.pkgd.min.js",
+              "assets/vendor/swiper/swiper-bundle.min.js",
+              "assets/vendor/typed.js/typed.umd.js",
+              "assets/vendor/waypoints/noframework.waypoints.js",
+              "assets/js/main.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

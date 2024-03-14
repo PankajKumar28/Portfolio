@@ -1,0 +1,28 @@
+<section id="skills" class="skills section-bg">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Skills</h2>
+        <p>I am doing development since 2015 , and developed 10+ Insurance Software and Transaction system.
+             Along with comlpeted 3+ data migration from legacy system to new system as per clients requirement. 
+             And done 3rd party api integration also for many Software as per project needs.</p>
+      </div>
+
+      <div class="row skills-content">
+        @for (skill of skillSet; track $index) {
+        <div class="col-lg-6" data-aos="fade-up">
+
+          <div class="progress">
+            <span class="skill">{{skill.name}}<i class="val">{{skill.value}}%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar"  [attr.aria-valuenow]="skill.value" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+        </div>
+        }
+
+      </div>
+
+    </div>
+  </section>
