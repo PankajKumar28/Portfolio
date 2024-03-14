@@ -1,0 +1,4 @@
+.php-email-form .required {
+    border: solid 1px;
+    border-color: red !important;
+  }
